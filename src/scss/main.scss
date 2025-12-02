@@ -123,6 +123,12 @@ h3 {
   &--1 {
     border: 1px solid #0A0322;
     background: #fff;
+
+    &:hover {
+      border: 1px solid #00A1FF;
+      background: #00A1FF;
+      color: #fff;
+    }
   }
 
   &--2 {
@@ -137,4 +143,10 @@ h3 {
 @import 'main-block';
 @import 'infographic-block';
 @import 'tours-block';
+@import 'services-block';
+@import 'locations-block';
+// @import 'logos-block';
+@import 'advantages-block';
+@import 'reviews-block';
+
 @import 'footer';
