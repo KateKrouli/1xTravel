@@ -21,6 +21,16 @@ header {
         gap: 6vw;
     }
 
+    &__logo {
+        max-width: 205px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 82px;
+    }
 
     .nav {
         display: flex;
@@ -47,4 +57,20 @@ header {
         gap: 4px;
     }
 
+
+    &__nav-icon {
+        width: 44px;
+        height: 44px;
+        background: url(images/nav.webp) center no-repeat;
+        background-size: contain;
+        display: none;
+        cursor: pointer;
+        border: none;
+        padding: 0;
+        flex-shrink: 0;
+
+        &--open {
+            background: url(images/nav-close.webp) center no-repeat;
+        }
+    }
 }

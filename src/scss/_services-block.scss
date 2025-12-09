@@ -36,6 +36,11 @@
             border-radius: 15px;
         }
 
+        &-icon {
+            width: 60px;
+            height: 60px;
+        }
+
         &-content {
             display: flex;
             flex-direction: column;

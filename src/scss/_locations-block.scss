@@ -33,6 +33,7 @@
         aspect-ratio: 400 / 520;
         border-radius: 25px;
         padding: 30px;
+        background-size: cover;
 
         &-content {
             display: flex;
@@ -78,6 +79,7 @@
         height: 72px;
         border-radius: 50%;
         background: url(images/arrow.webp);
+        background-size: contain;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         left: auto;
         right: auto;
